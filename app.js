@@ -2,7 +2,7 @@ const argv = require('./yargs/yargs').argv;
 const location = require("./location/location");
 const lol = require('./League of Legends/lol-api-v4');
 const cfg = require('./config');
-lol.setConfig('RGAPI-a7dd3add-5f67-43b2-ac35-683e216d0537');
+lol.setConfig('pol');
 const clima = require('./openWeather/weather');
 clima.setApiKey(cfg.openWeatherKey);
 
